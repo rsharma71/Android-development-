@@ -151,7 +151,7 @@ class SnackbarButton extends StatelessWidget {
           final name = textEditingController.text;
 
           final snackBar = SnackBar(
-            content: Text('Hey ${name}'),
+            content: Text('Hey there, Your name is ${name}'),
             duration: Duration(seconds: 5),
             action: SnackBarAction(
               label: 'Click Me',
